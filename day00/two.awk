@@ -1,5 +1,6 @@
 #!/usr/bin/env awk -f
 BEGIN {
+    DEBUG = 1
 }
 {
     if (_error) {
