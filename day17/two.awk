@@ -13,10 +13,6 @@ BEGIN {
     YCOORD = 1
     XCOORD = 2
     LIMIT = 10000000
-    if ("PREVENT_LONG_RUN" in ENVIRON) {
-        print NR
-        exit
-    }
     DEBUG = 0
 }
 {
